@@ -1,0 +1,89 @@
+/** Styles for Product Page*/
+
+.product-page-container {
+  position: relative;
+}
+
+.product-header {
+  height: 100%;
+  width: 100vw;
+  background-image: url("../assets/Logo/doradorock (1).webp");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.product-header-text {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.product-header-text h1 {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+}
+
+.product-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-list a {
+  text-decoration: none;
+}
+
+.product-item {
+  width: 220px;
+  margin: 5px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 125px;
+  height: auto;
+}
+
+.product-item h3 {
+  color: black;
+}
+
+/** Mobile Styles for Product Page */
+
+@media (max-width: 768px) {
+  .product-header-text h1 {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .product-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+  }
+  
+  .product-item {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,104 @@
+/** Styles for the Contact Form*/
+
+.contact h2 {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.contact form {
+  width: 600px;
+  text-align: center;
+}
+
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box .input-field {
+  width: 48.5%;
+}
+
+.field .item {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #333;
+  background: transparent;
+  display: table-row;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: black;
+  margin: 12px 0;
+}
+
+.field .item::placeholder {
+  color: #333;
+}
+
+form .textarea-field {
+  resize: none;
+}
+
+form button {
+  padding: 12px 32px;
+  background-color: black;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #333;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+form button:hover {
+  box-shadow: none;
+}
+
+/** Mobile Styles for Contact Form */
+
+@media (max-width: 768px) {
+  .contact {
+    padding-bottom: 40px;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact form {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  form .input-box {
+    flex-direction: column;
+  }
+
+  .input-box .input-field {
+    width: 100%;
+  }
+
+  .field .item {
+    font-size: 14px;
+  }
+
+  form button {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+}
