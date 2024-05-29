@@ -29,7 +29,7 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5005/send-email", formData);
+      await axios.post("https://doradorockllc.com/send-email", formData);
       alert("Email sent successfully!");
 
     } catch (error) {
