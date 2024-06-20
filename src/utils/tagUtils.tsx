@@ -1,7 +1,7 @@
 import { Armangac_bourbon_cognac_whiskey } from "./Armangac_bourbon_cognac_whiskey";
 import { Cachaca_mezcal_pisco_sotol_tequila } from "./Cachaca_mezcal_pisco_sotol_tequila";
 import { Cordials_Gin_Rum_Vodka } from "./Cordials_Gin_Rum_Vodka";
-import { RTD } from "../components/RTD";
+import { RTD } from "./RTD";
 
 export const getUniqueTags = (): string[] => {
     const allProducts = [

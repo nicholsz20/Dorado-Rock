@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "SpaceMono Bold";
-  src: url("./assets//fonts/SpaceMono-Bold.ttf") format("woff2");
+  font-family: "Roboto Bold";
+  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 * {
   box-sizing: border-box;
-  font-family: "SpaceMono Bold";
+  font-family: "Roboto Bold";
 }
 
 body {

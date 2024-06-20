@@ -21,7 +21,7 @@ export default function Home() {
         </h2>
         <div className="button-container">
           <button className="outline-button">
-            <Link to="/products/">See Our Spirits</Link>
+            <Link to="/spirits">See Our Spirits</Link>
           </button>
           <button className="outline-button">
             <Link to="/about-us">Learn About Us</Link>

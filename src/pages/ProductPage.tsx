@@ -2,7 +2,7 @@ import { Armangac_bourbon_cognac_whiskey } from "../utils/Armangac_bourbon_cogna
 import { Cachaca_mezcal_pisco_sotol_tequila } from "../utils/Cachaca_mezcal_pisco_sotol_tequila";
 import { Cordials_Gin_Rum_Vodka } from "../utils/Cordials_Gin_Rum_Vodka";
 import ProductList from "../components/ProductList";
-import { RTD } from "../components/RTD";
+import { RTD } from "../utils/RTD";
 import { useEffect } from "react";
 
 export default function ProductPage() {
